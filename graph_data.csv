@@ -1,0 +1,10 @@
+type,mean,sd,time,type_var1,type_var2,type_var3,custom_dist,graph,id,timeframe
+random,100,5,168,None,None,None,[[0.5 0.9] [1 0.1]],False,1,daily
+cycles,100,5,168,200,5,[[100 168 0]],None,False,1,monthly
+continuous,0,2,365,1000,2,1,None,False,1,yearly
+cycles,200,5,168,300,5,[[35 42 56] [154 167 21]],None,False,2,daily
+random,200,10,210,None,None,None,None,False,2,monthly
+continuous,200,20,365,200,1.5,1.000001,None,False,2,yearly
+spikes,100,5,168,200,0.02,None,None,False,3,daily
+spikes,100,5,210,200,0.05,None,None,False,3,monthly
+spikes,100,5,365,200,0.2,None,None,False,3,yearly
